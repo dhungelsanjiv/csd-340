@@ -1,0 +1,47 @@
+h1,
+h3 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    /* background-color: rgba(185,63,8); */
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* fraction*/
+    margin-top: 10%;
+    /* border: solid; */
+    /* background-color: rgba(185,63,8); */
+    border-radius: 15px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    /* background-color: rgba(185,63,8); */
+}
+
+html {
+    background-color: rgba(247, 112, 24, 0.2);
+}
+
+.image-item {
+    border: 1px solid rgba(185, 63, 8, 1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 760px) {
+    #image-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .image-item {
+        margin-bottom: 20px;
+    }
+}
