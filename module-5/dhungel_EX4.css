@@ -11,9 +11,9 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     /* fraction*/
     margin-top: 10%;
-/*      border: solid;  */
+    /* border: solid; */
     color: rgba(185,63,8);
-    border-radius: 15px;
+/*     border-radius: 15px; */
 }
 
 figure {
