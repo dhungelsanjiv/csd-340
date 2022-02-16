@@ -1,0 +1,43 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+    }
+    
+    .header, .col-header{
+        text-align: center;
+    }
+    
+    .row{
+        display: flex;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .col-1,.col-2{
+        width: 50%;
+        margin: 0px 10px;
+    }
+    
+    .content{
+        padding: 0 0 15px 15px;
+    }
+    
+    img{
+        width: 80%;
+    }
+    
+    @media only screen and (max-width: 1000px){
+        .row{
+            flex-wrap: wrap;
+        }
+        .col-1,.col-2{
+            width: 100% !important;
+        }
+    
+        .top_content{
+            order: 1;
+        }
+        .bottom-image{
+            order: 2;
+        }
+    }

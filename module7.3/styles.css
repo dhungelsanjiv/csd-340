@@ -1,0 +1,50 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    width: 50%;
+    margin:auto;
+}
+.col-2{
+    width: 40%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+    .col-1, .col-2{
+        width: 100%;
+    }
+
+    .margin-top{
+        margin-top: 20px;
+    }
+    .top_content{
+        order: 1;
+    }
+    .bottom-image{
+        order: 2;
+    }
+    img{width:100%;}
+}
