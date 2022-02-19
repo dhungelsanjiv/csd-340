@@ -3,7 +3,11 @@ h3 {
     text-align: center;
     font-family: Oswald, Verdana, Arial, sans-serif;
     font-weight: 400;
+<<<<<<< HEAD
     color: rgba(185,63,8); 
+=======
+    color: rgba(185,63,8);
+>>>>>>> 1d63088ae13cd81245ff54cdfa3961adc219755c
 }
 
 #image-gallery {
@@ -13,7 +17,11 @@ h3 {
     margin-top: 10%;
     /* border: solid; */
     color: rgba(185,63,8);
+<<<<<<< HEAD
     border-radius: 15px;
+=======
+/*     border-radius: 15px; */
+>>>>>>> 1d63088ae13cd81245ff54cdfa3961adc219755c
 }
 
 figure {
