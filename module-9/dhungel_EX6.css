@@ -98,6 +98,7 @@ footer a :hover{
 }
 .form-field{
     padding: 20px;
+    
 }
 .btn {
     border: none;
@@ -108,7 +109,8 @@ footer a :hover{
     margin: 4px 2px;
     cursor: pointer;
     padding: 15px 32px;
-    color: black;    
+    color: black; 
+    
 }
 .input {
     padding: 12px 20px;
@@ -117,12 +119,13 @@ footer a :hover{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+     
 }
-.btn-primary{
+.btn-primary {
     background-color: #4F3674;
-    color: white;
+     color: white; 
 }
-.btn-primary :hover{
+.btn-primary:hover{
     background-color: #D6A800;
     color: #4F3674;
 }
